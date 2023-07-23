@@ -9,7 +9,7 @@
         die('Connection failed : '.$conn->connect_error);
     }
     else{
-        $stmt = $conn->prepare("insert into contact(name,email,phone-number)values(?,?,?)");
+        $stmt = $conn->prepare("insert into contact(name,email,number)values(?,?,?)");
 
         $stmt->bind_param("sss",$name,$email,$number);
         $stmt->execute();
