@@ -441,8 +441,8 @@ body::selection {
 
 .introduction-text {
   display: block;
-  min-width: 50%;
-  padding-right: 175px;
+  min-width: 59.2%;
+  padding-right: 160px;
 }
 
 .introduction-text p:nth-child(1) {
