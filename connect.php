@@ -1,7 +1,7 @@
 <?php
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $number = $_POST['phone-number'];
+    $number = $_POST['number'];
     
     $conn = new mysqli('localhost','root','','my_portfolio');
 
