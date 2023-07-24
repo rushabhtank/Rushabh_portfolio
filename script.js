@@ -42,3 +42,14 @@ single_profile_card.forEach((btn, index) => {
         });
     });
 });
+
+function removeLoader(){
+  
+  setTimeout(()=>{
+     let loader = document.getElementById('loader');
+  
+  // hide the loader
+  loader.style = 'display: none;';
+  },
+             1000);  
+}

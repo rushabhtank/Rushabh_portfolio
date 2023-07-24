@@ -45,6 +45,33 @@ p {
   margin: 15px 0 20px 0;
 }
 
+#loader {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  z-index: 99999;  
+  background: rgb(17, 15, 14)
+  
+}
+
+#loader p {  
+  text-align: center;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+  transform: scale(1) rotate(-5deg);
+}
+
 .section-p1 {
   padding: 40px 80px;
 }
