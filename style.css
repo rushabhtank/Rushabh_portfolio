@@ -573,6 +573,7 @@ body::selection {
   font-size: 30px;
   color: #fff;
   font-weight: 400;
+  text-decoration: underline;
 }
 
 .project-card .title .tech-stack {
