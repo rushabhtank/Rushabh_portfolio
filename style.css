@@ -549,10 +549,12 @@ body::selection {
 
 .project-card-1 {
   background: linear-gradient(180deg, #16191e, #252628);
+  margin-top: -150px;
 }
 
 .project-card-2 {
   background: linear-gradient(225deg, #2c2940, #5a4073);
+  margin-top: 3px;
 }
 
 .project-card-3 {
@@ -594,20 +596,23 @@ body::selection {
 }
 
 .project-img-1 {
-  height: 50vh;
-  top: 30px;
-  left: 0px;
+  width: 100%;
+  height: 60%;
   object-fit: cover;
-  /* transform: scale(1.4) rotate(-5deg); */
-  transition: 0.3s ease-in-out;
+  object-position: top;
+  top: 40px;
+  left: 10px;
+  transform: scale(1.5);
+  box-shadow: -10px 10px 10px #00000080;
+  transition: 0.5s ease;
 }
 
 .project-card:hover .project-img-1{
-  transform: scale(1) rotate(-5deg);
+  transform: scale(1) rotate(0deg);
 }
 
 .project-card:hover .project-img-2{
-  transform: scale(1) rotate(-5deg);
+  transform: scale(1) rotate(0deg);
 }
 
 .project-img-2 {
